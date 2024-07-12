@@ -351,6 +351,7 @@ int floatFloat2Int(unsigned uf) {
  */
 unsigned floatPower2(int x) {
 	int m,exp,rest;
+
 	if(x<-149) return 0;
 	if(x>128) return 0x7f800000;
 	if(x<-126)
